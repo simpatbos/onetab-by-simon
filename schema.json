@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "Groups": {
+        "type": "array",
+        "id": "ListOfGroups",
+        "items": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "urls": "ListOfURLs"
+            }
+        }
+    },
+    "URLs": {
+        "type": "array",
+        "id": "ListOfURLS",
+        "items":{
+            "type": "string"
+        }
+    }
+}
