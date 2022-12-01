@@ -1,4 +1,4 @@
-onload(e => {
+document.onload(e => {
     chrome.permissions.request({
         permissions: ["tabs"]
     }, (granted) => {
