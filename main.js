@@ -1,11 +1,12 @@
 onload(e => {
     chrome.permissions.request({
         permissions: ["tabs"]
-    }), (granted) => {
-        if (granted) => {
+    }, (granted) => {
+        if (granted) {
             alert("permissions granted")
-        } else {
+        }
+        else {
             alert("not granted")
         }
-    }
-})
+    });
+});
