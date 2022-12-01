@@ -1,4 +1,4 @@
-window.onload(e => {
+function onPageLoad(e) {
     chrome.permissions.request({
         permissions: ["tabs"]
     }, (granted) => {
@@ -9,4 +9,7 @@ window.onload(e => {
             alert("not granted")
         }
     });
-});
+};
+
+document.addEventListener("DOMContentLoaded", onPageLoad, false);
+
