@@ -10,7 +10,7 @@
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
     },
-    "optional_permissions": ["tabs"],
+    "permissions": ["tabs"],
     "action":{
         "default_popup": "src/index.html",
         "default_title": "Onetab"
